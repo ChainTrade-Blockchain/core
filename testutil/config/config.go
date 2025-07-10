@@ -1,8 +1,8 @@
 package config
 
 import (
-	"github.com/cosmos/evm/types"
-	evmtypes "github.com/cosmos/evm/x/vm/types"
+	"github.com/ChainTrade-Blockchain/core/types"
+	evmtypes "github.com/ChainTrade-Blockchain/core/x/vm/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

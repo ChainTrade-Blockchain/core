@@ -6,10 +6,10 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/cosmos/evm/ante/evm"
-	testconstants "github.com/cosmos/evm/testutil/constants"
-	testkeyring "github.com/cosmos/evm/testutil/keyring"
-	evmtypes "github.com/cosmos/evm/x/vm/types"
+	"github.com/ChainTrade-Blockchain/core/ante/evm"
+	testconstants "github.com/ChainTrade-Blockchain/core/testutil/constants"
+	testkeyring "github.com/ChainTrade-Blockchain/core/testutil/keyring"
+	evmtypes "github.com/ChainTrade-Blockchain/core/x/vm/types"
 
 	"cosmossdk.io/math"
 

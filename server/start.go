@@ -29,11 +29,11 @@ import (
 	cmttypes "github.com/cometbft/cometbft/types"
 
 	dbm "github.com/cosmos/cosmos-db"
-	"github.com/cosmos/evm/indexer"
-	ethdebug "github.com/cosmos/evm/rpc/namespaces/ethereum/debug"
-	cosmosevmserverconfig "github.com/cosmos/evm/server/config"
-	srvflags "github.com/cosmos/evm/server/flags"
-	cosmosevmtypes "github.com/cosmos/evm/types"
+	"github.com/ChainTrade-Blockchain/core/indexer"
+	ethdebug "github.com/ChainTrade-Blockchain/core/rpc/namespaces/ethereum/debug"
+	cosmosevmserverconfig "github.com/ChainTrade-Blockchain/core/server/config"
+	srvflags "github.com/ChainTrade-Blockchain/core/server/flags"
+	cosmosevmtypes "github.com/ChainTrade-Blockchain/core/types"
 
 	errorsmod "cosmossdk.io/errors"
 	pruningtypes "cosmossdk.io/store/pruning/types"

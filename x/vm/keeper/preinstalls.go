@@ -6,7 +6,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 
-	"github.com/cosmos/evm/x/vm/types"
+	"github.com/ChainTrade-Blockchain/core/x/vm/types"
 
 	errorsmod "cosmossdk.io/errors"
 

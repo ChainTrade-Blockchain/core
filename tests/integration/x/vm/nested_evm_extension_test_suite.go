@@ -6,14 +6,14 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/evm/contracts"
-	testcontracts "github.com/cosmos/evm/precompiles/testutil/contracts"
-	"github.com/cosmos/evm/testutil/integration/evm/factory"
-	"github.com/cosmos/evm/testutil/integration/evm/grpc"
-	"github.com/cosmos/evm/testutil/integration/evm/network"
-	testkeyring "github.com/cosmos/evm/testutil/keyring"
-	testutiltypes "github.com/cosmos/evm/testutil/types"
-	evmtypes "github.com/cosmos/evm/x/vm/types"
+	"github.com/ChainTrade-Blockchain/core/contracts"
+	testcontracts "github.com/ChainTrade-Blockchain/core/precompiles/testutil/contracts"
+	"github.com/ChainTrade-Blockchain/core/testutil/integration/evm/factory"
+	"github.com/ChainTrade-Blockchain/core/testutil/integration/evm/grpc"
+	"github.com/ChainTrade-Blockchain/core/testutil/integration/evm/network"
+	testkeyring "github.com/ChainTrade-Blockchain/core/testutil/keyring"
+	testutiltypes "github.com/ChainTrade-Blockchain/core/testutil/types"
+	evmtypes "github.com/ChainTrade-Blockchain/core/x/vm/types"
 
 	"cosmossdk.io/math"
 )

@@ -7,10 +7,10 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/vm"
 
-	cmn "github.com/cosmos/evm/precompiles/common"
-	"github.com/cosmos/evm/precompiles/gov"
-	"github.com/cosmos/evm/precompiles/testutil"
-	testconstants "github.com/cosmos/evm/testutil/constants"
+	cmn "github.com/ChainTrade-Blockchain/core/precompiles/common"
+	"github.com/ChainTrade-Blockchain/core/precompiles/gov"
+	"github.com/ChainTrade-Blockchain/core/precompiles/testutil"
+	testconstants "github.com/ChainTrade-Blockchain/core/testutil/constants"
 
 	"cosmossdk.io/math"
 

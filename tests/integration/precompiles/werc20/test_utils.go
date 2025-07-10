@@ -6,9 +6,9 @@ import (
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/cosmos/evm/testutil/keyring"
-	testutiltypes "github.com/cosmos/evm/testutil/types"
-	evmtypes "github.com/cosmos/evm/x/vm/types"
+	"github.com/ChainTrade-Blockchain/core/testutil/keyring"
+	testutiltypes "github.com/ChainTrade-Blockchain/core/testutil/types"
+	evmtypes "github.com/ChainTrade-Blockchain/core/x/vm/types"
 )
 
 // callType constants to differentiate between

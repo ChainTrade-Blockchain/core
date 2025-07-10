@@ -3,8 +3,8 @@ package erc20
 import (
 	"math/big"
 
-	"github.com/cosmos/evm/precompiles/erc20"
-	utiltx "github.com/cosmos/evm/testutil/tx"
+	"github.com/ChainTrade-Blockchain/core/precompiles/erc20"
+	utiltx "github.com/ChainTrade-Blockchain/core/testutil/tx"
 )
 
 //nolint:dupl // these tests are not duplicates

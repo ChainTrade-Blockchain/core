@@ -8,14 +8,14 @@ import (
 
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 
-	"github.com/cosmos/evm/ante/evm"
-	anteinterfaces "github.com/cosmos/evm/ante/interfaces"
-	"github.com/cosmos/evm/encoding"
-	"github.com/cosmos/evm/testutil/config"
-	testconstants "github.com/cosmos/evm/testutil/constants"
-	"github.com/cosmos/evm/types"
-	feemarkettypes "github.com/cosmos/evm/x/feemarket/types"
-	evmtypes "github.com/cosmos/evm/x/vm/types"
+	"github.com/ChainTrade-Blockchain/core/ante/evm"
+	anteinterfaces "github.com/ChainTrade-Blockchain/core/ante/interfaces"
+	"github.com/ChainTrade-Blockchain/core/encoding"
+	"github.com/ChainTrade-Blockchain/core/testutil/config"
+	testconstants "github.com/ChainTrade-Blockchain/core/testutil/constants"
+	"github.com/ChainTrade-Blockchain/core/types"
+	feemarkettypes "github.com/ChainTrade-Blockchain/core/x/feemarket/types"
+	evmtypes "github.com/ChainTrade-Blockchain/core/x/vm/types"
 
 	"cosmossdk.io/log"
 	"cosmossdk.io/math"

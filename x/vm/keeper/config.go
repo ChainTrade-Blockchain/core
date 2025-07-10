@@ -6,8 +6,8 @@ import (
 	"github.com/ethereum/go-ethereum/core/tracing"
 	"github.com/ethereum/go-ethereum/core/vm"
 
-	"github.com/cosmos/evm/x/vm/statedb"
-	"github.com/cosmos/evm/x/vm/types"
+	"github.com/ChainTrade-Blockchain/core/x/vm/statedb"
+	"github.com/ChainTrade-Blockchain/core/x/vm/types"
 
 	errorsmod "cosmossdk.io/errors"
 

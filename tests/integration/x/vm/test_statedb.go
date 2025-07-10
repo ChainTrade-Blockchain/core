@@ -12,12 +12,12 @@ import (
 	ethparams "github.com/ethereum/go-ethereum/params"
 	"github.com/holiman/uint256"
 
-	testconstants "github.com/cosmos/evm/testutil/constants"
-	"github.com/cosmos/evm/testutil/integration/evm/network"
-	testKeyring "github.com/cosmos/evm/testutil/keyring"
-	utiltx "github.com/cosmos/evm/testutil/tx"
-	"github.com/cosmos/evm/x/vm/statedb"
-	"github.com/cosmos/evm/x/vm/types"
+	testconstants "github.com/ChainTrade-Blockchain/core/testutil/constants"
+	"github.com/ChainTrade-Blockchain/core/testutil/integration/evm/network"
+	testKeyring "github.com/ChainTrade-Blockchain/core/testutil/keyring"
+	utiltx "github.com/ChainTrade-Blockchain/core/testutil/tx"
+	"github.com/ChainTrade-Blockchain/core/x/vm/statedb"
+	"github.com/ChainTrade-Blockchain/core/x/vm/types"
 
 	"cosmossdk.io/store/prefix"
 

@@ -3,8 +3,8 @@ package feemarket
 import (
 	abci "github.com/cometbft/cometbft/abci/types"
 
-	"github.com/cosmos/evm/x/feemarket/keeper"
-	"github.com/cosmos/evm/x/feemarket/types"
+	"github.com/ChainTrade-Blockchain/core/x/feemarket/keeper"
+	"github.com/ChainTrade-Blockchain/core/x/feemarket/types"
 
 	errorsmod "cosmossdk.io/errors"
 

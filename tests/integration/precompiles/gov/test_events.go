@@ -6,9 +6,9 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/holiman/uint256"
 
-	cmn "github.com/cosmos/evm/precompiles/common"
-	"github.com/cosmos/evm/precompiles/gov"
-	"github.com/cosmos/evm/x/vm/statedb"
+	cmn "github.com/ChainTrade-Blockchain/core/precompiles/common"
+	"github.com/ChainTrade-Blockchain/core/precompiles/gov"
+	"github.com/ChainTrade-Blockchain/core/x/vm/statedb"
 
 	storetypes "cosmossdk.io/store/types"
 

@@ -5,11 +5,11 @@ import (
 
 	"github.com/stretchr/testify/mock"
 
-	"github.com/cosmos/evm/testutil/integration/evm/utils"
-	"github.com/cosmos/evm/testutil/keyring"
-	erc20types "github.com/cosmos/evm/x/erc20/types"
-	transferkeeper "github.com/cosmos/evm/x/ibc/transfer/keeper"
-	evmtypes "github.com/cosmos/evm/x/vm/types"
+	"github.com/ChainTrade-Blockchain/core/testutil/integration/evm/utils"
+	"github.com/ChainTrade-Blockchain/core/testutil/keyring"
+	erc20types "github.com/ChainTrade-Blockchain/core/x/erc20/types"
+	transferkeeper "github.com/ChainTrade-Blockchain/core/x/ibc/transfer/keeper"
+	evmtypes "github.com/ChainTrade-Blockchain/core/x/vm/types"
 	"github.com/cosmos/ibc-go/v10/modules/apps/transfer/types"
 	channeltypes "github.com/cosmos/ibc-go/v10/modules/core/04-channel/types"
 

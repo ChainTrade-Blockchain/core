@@ -3,8 +3,8 @@ package network
 import (
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/cosmos/evm"
-	"github.com/cosmos/evm/x/vm/statedb"
+	"github.com/ChainTrade-Blockchain/core"
+	"github.com/ChainTrade-Blockchain/core/x/vm/statedb"
 
 	sdktypes "github.com/cosmos/cosmos-sdk/types"
 	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"

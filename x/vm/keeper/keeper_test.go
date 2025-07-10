@@ -9,12 +9,12 @@ import (
 	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
 	cmttime "github.com/cometbft/cometbft/types/time"
 
-	erc20types "github.com/cosmos/evm/x/erc20/types"
-	feemarkettypes "github.com/cosmos/evm/x/feemarket/types"
-	precisebanktypes "github.com/cosmos/evm/x/precisebank/types"
-	vmkeeper "github.com/cosmos/evm/x/vm/keeper"
-	vmtypes "github.com/cosmos/evm/x/vm/types"
-	"github.com/cosmos/evm/x/vm/types/mocks"
+	erc20types "github.com/ChainTrade-Blockchain/core/x/erc20/types"
+	feemarkettypes "github.com/ChainTrade-Blockchain/core/x/feemarket/types"
+	precisebanktypes "github.com/ChainTrade-Blockchain/core/x/precisebank/types"
+	vmkeeper "github.com/ChainTrade-Blockchain/core/x/vm/keeper"
+	vmtypes "github.com/ChainTrade-Blockchain/core/x/vm/types"
+	"github.com/ChainTrade-Blockchain/core/x/vm/types/mocks"
 	ibctransfertypes "github.com/cosmos/ibc-go/v10/modules/apps/transfer/types"
 	ibcexported "github.com/cosmos/ibc-go/v10/modules/core/exported"
 

@@ -11,10 +11,10 @@ import (
 	//nolint:revive,ST1001 // dot imports are fine for Ginkgo
 	. "github.com/onsi/gomega"
 
-	"github.com/cosmos/evm/testutil/integration/base/factory"
-	"github.com/cosmos/evm/testutil/integration/evm/network"
-	"github.com/cosmos/evm/testutil/integration/evm/utils"
-	"github.com/cosmos/evm/x/erc20/types"
+	"github.com/ChainTrade-Blockchain/core/testutil/integration/base/factory"
+	"github.com/ChainTrade-Blockchain/core/testutil/integration/evm/network"
+	"github.com/ChainTrade-Blockchain/core/testutil/integration/evm/utils"
+	"github.com/ChainTrade-Blockchain/core/x/erc20/types"
 
 	"cosmossdk.io/math"
 

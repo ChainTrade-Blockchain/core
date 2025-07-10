@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CHAINID="${CHAIN_ID:-9001}"
+CHAINID="${CHAIN_ID:-306091}"
 MONIKER="localtestnet"
 # Remember to change to other types of keyring like 'file' in-case exposing to outside world,
 # otherwise your balance will be wiped quickly
@@ -9,8 +9,8 @@ KEYRING="test"
 KEYALGO="eth_secp256k1"
 
 LOGLEVEL="info"
-# Set dedicated home directory for the evmd instance
-HOMEDIR="$HOME/.evmd"
+# Set dedicated home directory for the cvmd instance
+HOMEDIR="$HOME/.cvmd"
 
 BASEFEE=10000000
 
@@ -48,7 +48,7 @@ while [[ $# -gt 0 ]]; do
 		shift # Move past the argument
 		;;
 	--no-install)
-		echo "Flag --no-install passed -> Skipping installation of the evmd binary."
+		echo "Flag --no-install passed -> Skipping installation of the cvmd binary."
 		install=false
 		shift # Move past the flag
 		;;
@@ -91,8 +91,8 @@ if [[ $overwrite == "y" || $overwrite == "Y" ]]; then
 	rm -rf "$HOMEDIR"
 
 	# Set client config
-	evmd config set client chain-id "$CHAINID" --home "$HOMEDIR"
-	evmd config set client keyring-backend "$KEYRING" --home "$HOMEDIR"
+	cvmd config set client chain-id "$CHAINID" --home "$HOMEDIR"
+	cvmd config set client keyring-backend "$KEYRING" --home "$HOMEDIR"
 
 	# myKey address 0x7cb61d4117ae31a12e393a1cfa3bac666481d02e | os10jmp6sgh4cc6zt3e8gw05wavvejgr5pwjnpcky
 	VAL_KEY="mykey"
@@ -115,14 +115,14 @@ if [[ $overwrite == "y" || $overwrite == "Y" ]]; then
 	USER4_MNEMONIC="doll midnight silk carpet brush boring pluck office gown inquiry duck chief aim exit gain never tennis crime fragile ship cloud surface exotic patch"
 
 	# Import keys from mnemonics
-	echo "$VAL_MNEMONIC" | evmd keys add "$VAL_KEY" --recover --keyring-backend "$KEYRING" --algo "$KEYALGO" --home "$HOMEDIR"
-	echo "$USER1_MNEMONIC" | evmd keys add "$USER1_KEY" --recover --keyring-backend "$KEYRING" --algo "$KEYALGO" --home "$HOMEDIR"
-	echo "$USER2_MNEMONIC" | evmd keys add "$USER2_KEY" --recover --keyring-backend "$KEYRING" --algo "$KEYALGO" --home "$HOMEDIR"
-	echo "$USER3_MNEMONIC" | evmd keys add "$USER3_KEY" --recover --keyring-backend "$KEYRING" --algo "$KEYALGO" --home "$HOMEDIR"
-	echo "$USER4_MNEMONIC" | evmd keys add "$USER4_KEY" --recover --keyring-backend "$KEYRING" --algo "$KEYALGO" --home "$HOMEDIR"
+	echo "$VAL_MNEMONIC" | cvmd keys add "$VAL_KEY" --recover --keyring-backend "$KEYRING" --algo "$KEYALGO" --home "$HOMEDIR"
+	echo "$USER1_MNEMONIC" | cvmd keys add "$USER1_KEY" --recover --keyring-backend "$KEYRING" --algo "$KEYALGO" --home "$HOMEDIR"
+	echo "$USER2_MNEMONIC" | cvmd keys add "$USER2_KEY" --recover --keyring-backend "$KEYRING" --algo "$KEYALGO" --home "$HOMEDIR"
+	echo "$USER3_MNEMONIC" | cvmd keys add "$USER3_KEY" --recover --keyring-backend "$KEYRING" --algo "$KEYALGO" --home "$HOMEDIR"
+	echo "$USER4_MNEMONIC" | cvmd keys add "$USER4_KEY" --recover --keyring-backend "$KEYRING" --algo "$KEYALGO" --home "$HOMEDIR"
 
 	# Set moniker and chain-id for the example chain (Moniker can be anything, chain-id must be an integer)
-	evmd init $MONIKER -o --chain-id "$CHAINID" --home "$HOMEDIR"
+	cvmd init $MONIKER -o --chain-id "$CHAINID" --home "$HOMEDIR"
 
 	# Change parameter token denominations to desired value
 	jq '.app_state["staking"]["params"]["bond_denom"]="atest"' "$GENESIS" >"$TMP_GENESIS" && mv "$TMP_GENESIS" "$GENESIS"
@@ -133,7 +133,7 @@ if [[ $overwrite == "y" || $overwrite == "Y" ]]; then
 	jq '.app_state["mint"]["params"]["mint_denom"]="atest"' "$GENESIS" >"$TMP_GENESIS" && mv "$TMP_GENESIS" "$GENESIS"
 
 	# Add default token metadata to genesis
-	jq '.app_state["bank"]["denom_metadata"]=[{"description":"The native staking token for evmd.","denom_units":[{"denom":"atest","exponent":0,"aliases":["attotest"]},{"denom":"test","exponent":18,"aliases":[]}],"base":"atest","display":"test","name":"Test Token","symbol":"TEST","uri":"","uri_hash":""}]' "$GENESIS" >"$TMP_GENESIS" && mv "$TMP_GENESIS" "$GENESIS"
+	jq '.app_state["bank"]["denom_metadata"]=[{"description":"The native staking token for cvmd.","denom_units":[{"denom":"atest","exponent":0,"aliases":["attotest"]},{"denom":"test","exponent":18,"aliases":[]}],"base":"atest","display":"test","name":"Test Token","symbol":"TEST","uri":"","uri_hash":""}]' "$GENESIS" >"$TMP_GENESIS" && mv "$TMP_GENESIS" "$GENESIS"
 
 	# Enable precompiles in EVM params
 	jq '.app_state["evm"]["params"]["active_static_precompiles"]=["0x0000000000000000000000000000000000000100","0x0000000000000000000000000000000000000400","0x0000000000000000000000000000000000000800","0x0000000000000000000000000000000000000801","0x0000000000000000000000000000000000000802","0x0000000000000000000000000000000000000803","0x0000000000000000000000000000000000000804","0x0000000000000000000000000000000000000805"]' "$GENESIS" >"$TMP_GENESIS" && mv "$TMP_GENESIS" "$GENESIS"
@@ -194,26 +194,26 @@ if [[ $overwrite == "y" || $overwrite == "Y" ]]; then
 	sed -i.bak 's/pruning-interval = "0"/pruning-interval = "10"/g' "$APP_TOML"
 
 	# Allocate genesis accounts (cosmos formatted addresses)
-	evmd genesis add-genesis-account "$VAL_KEY" 100000000000000000000000000atest --keyring-backend "$KEYRING" --home "$HOMEDIR"
-	evmd genesis add-genesis-account "$USER1_KEY" 1000000000000000000000atest --keyring-backend "$KEYRING" --home "$HOMEDIR"
-	evmd genesis add-genesis-account "$USER2_KEY" 1000000000000000000000atest --keyring-backend "$KEYRING" --home "$HOMEDIR"
-	evmd genesis add-genesis-account "$USER3_KEY" 1000000000000000000000atest --keyring-backend "$KEYRING" --home "$HOMEDIR"
-	evmd genesis add-genesis-account "$USER4_KEY" 1000000000000000000000atest --keyring-backend "$KEYRING" --home "$HOMEDIR"
+	cvmd genesis add-genesis-account "$VAL_KEY" 100000000000000000000000000atest --keyring-backend "$KEYRING" --home "$HOMEDIR"
+	cvmd genesis add-genesis-account "$USER1_KEY" 1000000000000000000000atest --keyring-backend "$KEYRING" --home "$HOMEDIR"
+	cvmd genesis add-genesis-account "$USER2_KEY" 1000000000000000000000atest --keyring-backend "$KEYRING" --home "$HOMEDIR"
+	cvmd genesis add-genesis-account "$USER3_KEY" 1000000000000000000000atest --keyring-backend "$KEYRING" --home "$HOMEDIR"
+	cvmd genesis add-genesis-account "$USER4_KEY" 1000000000000000000000atest --keyring-backend "$KEYRING" --home "$HOMEDIR"
 
 	# Sign genesis transaction
-	evmd genesis gentx "$VAL_KEY" 1000000000000000000000atest --gas-prices ${BASEFEE}atest --keyring-backend "$KEYRING" --chain-id "$CHAINID" --home "$HOMEDIR"
+	cvmd genesis gentx "$VAL_KEY" 1000000000000000000000atest --gas-prices ${BASEFEE}atest --keyring-backend "$KEYRING" --chain-id "$CHAINID" --home "$HOMEDIR"
 	## In case you want to create multiple validators at genesis
-	## 1. Back to `evmd keys add` step, init more keys
-	## 2. Back to `evmd add-genesis-account` step, add balance for those
-	## 3. Clone this ~/.evmd home directory into some others, let's say `~/.clonedOsd`
+	## 1. Back to `cvmd keys add` step, init more keys
+	## 2. Back to `cvmd add-genesis-account` step, add balance for those
+	## 3. Clone this ~/.cvmd home directory into some others, let's say `~/.clonedOsd`
 	## 4. Run `gentx` in each of those folders
-	## 5. Copy the `gentx-*` folders under `~/.clonedOsd/config/gentx/` folders into the original `~/.evmd/config/gentx`
+	## 5. Copy the `gentx-*` folders under `~/.clonedOsd/config/gentx/` folders into the original `~/.cvmd/config/gentx`
 
 	# Collect genesis tx
-	evmd genesis collect-gentxs --home "$HOMEDIR"
+	cvmd genesis collect-gentxs --home "$HOMEDIR"
 
 	# Run this to ensure everything worked and that the genesis file is setup correctly
-	evmd genesis validate-genesis --home "$HOMEDIR"
+	cvmd genesis validate-genesis --home "$HOMEDIR"
 
 	if [[ $1 == "pending" ]]; then
 		echo "pending mode is on, please wait for the first block committed."
@@ -221,7 +221,7 @@ if [[ $overwrite == "y" || $overwrite == "Y" ]]; then
 fi
 
 # Start the node
-evmd start "$TRACE" \
+cvmd start "$TRACE" \
 	--log_level $LOGLEVEL \
 	--minimum-gas-prices=0.0001atest \
 	--home "$HOMEDIR" \

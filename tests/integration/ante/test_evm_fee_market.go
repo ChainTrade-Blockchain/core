@@ -5,13 +5,13 @@ import (
 
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 
-	"github.com/cosmos/evm/ante/evm"
-	"github.com/cosmos/evm/server/config"
-	"github.com/cosmos/evm/testutil"
-	testconstants "github.com/cosmos/evm/testutil/constants"
-	utiltx "github.com/cosmos/evm/testutil/tx"
-	"github.com/cosmos/evm/types"
-	evmtypes "github.com/cosmos/evm/x/vm/types"
+	"github.com/ChainTrade-Blockchain/core/ante/evm"
+	"github.com/ChainTrade-Blockchain/core/server/config"
+	"github.com/ChainTrade-Blockchain/core/testutil"
+	testconstants "github.com/ChainTrade-Blockchain/core/testutil/constants"
+	utiltx "github.com/ChainTrade-Blockchain/core/testutil/tx"
+	"github.com/ChainTrade-Blockchain/core/types"
+	evmtypes "github.com/ChainTrade-Blockchain/core/x/vm/types"
 
 	sdkmath "cosmossdk.io/math"
 

@@ -1,8 +1,8 @@
 package evm
 
 import (
-	anteinterfaces "github.com/cosmos/evm/ante/interfaces"
-	evmante "github.com/cosmos/evm/x/vm/ante"
+	anteinterfaces "github.com/ChainTrade-Blockchain/core/ante/interfaces"
+	evmante "github.com/ChainTrade-Blockchain/core/x/vm/ante"
 
 	errorsmod "cosmossdk.io/errors"
 	storetypes "cosmossdk.io/store/types"

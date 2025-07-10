@@ -3,11 +3,11 @@ package precisebank
 import (
 	"github.com/stretchr/testify/suite"
 
-	testconstants "github.com/cosmos/evm/testutil/constants"
-	"github.com/cosmos/evm/testutil/integration/evm/factory"
-	"github.com/cosmos/evm/testutil/integration/evm/grpc"
-	"github.com/cosmos/evm/testutil/integration/evm/network"
-	"github.com/cosmos/evm/testutil/keyring"
+	testconstants "github.com/ChainTrade-Blockchain/core/testutil/constants"
+	"github.com/ChainTrade-Blockchain/core/testutil/integration/evm/factory"
+	"github.com/ChainTrade-Blockchain/core/testutil/integration/evm/grpc"
+	"github.com/ChainTrade-Blockchain/core/testutil/integration/evm/network"
+	"github.com/ChainTrade-Blockchain/core/testutil/keyring"
 )
 
 const SEED = int64(42)

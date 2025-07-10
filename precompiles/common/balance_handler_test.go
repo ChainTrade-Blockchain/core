@@ -8,11 +8,11 @@ import (
 	"github.com/holiman/uint256"
 	"github.com/stretchr/testify/require"
 
-	testutil "github.com/cosmos/evm/testutil"
-	testconstants "github.com/cosmos/evm/testutil/constants"
-	"github.com/cosmos/evm/x/vm/statedb"
-	evmtypes "github.com/cosmos/evm/x/vm/types"
-	"github.com/cosmos/evm/x/vm/types/mocks"
+	testutil "github.com/ChainTrade-Blockchain/core/testutil"
+	testconstants "github.com/ChainTrade-Blockchain/core/testutil/constants"
+	"github.com/ChainTrade-Blockchain/core/x/vm/statedb"
+	evmtypes "github.com/ChainTrade-Blockchain/core/x/vm/types"
+	"github.com/ChainTrade-Blockchain/core/x/vm/types/mocks"
 
 	storetypes "cosmossdk.io/store/types"
 

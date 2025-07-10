@@ -13,15 +13,15 @@ import (
 	//nolint:revive,ST1001 // dot imports are fine for Ginkgo
 	. "github.com/onsi/gomega"
 
-	cmn "github.com/cosmos/evm/precompiles/common"
-	"github.com/cosmos/evm/precompiles/gov"
-	"github.com/cosmos/evm/precompiles/testutil"
-	"github.com/cosmos/evm/precompiles/testutil/contracts"
-	commonfactory "github.com/cosmos/evm/testutil/integration/base/factory"
-	"github.com/cosmos/evm/testutil/integration/evm/network"
-	testutiltx "github.com/cosmos/evm/testutil/tx"
-	testutiltypes "github.com/cosmos/evm/testutil/types"
-	evmtypes "github.com/cosmos/evm/x/vm/types"
+	cmn "github.com/ChainTrade-Blockchain/core/precompiles/common"
+	"github.com/ChainTrade-Blockchain/core/precompiles/gov"
+	"github.com/ChainTrade-Blockchain/core/precompiles/testutil"
+	"github.com/ChainTrade-Blockchain/core/precompiles/testutil/contracts"
+	commonfactory "github.com/ChainTrade-Blockchain/core/testutil/integration/base/factory"
+	"github.com/ChainTrade-Blockchain/core/testutil/integration/evm/network"
+	testutiltx "github.com/ChainTrade-Blockchain/core/testutil/tx"
+	testutiltypes "github.com/ChainTrade-Blockchain/core/testutil/types"
+	evmtypes "github.com/ChainTrade-Blockchain/core/x/vm/types"
 
 	"cosmossdk.io/math"
 

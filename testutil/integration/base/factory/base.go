@@ -5,8 +5,8 @@ import (
 
 	abcitypes "github.com/cometbft/cometbft/abci/types"
 
-	"github.com/cosmos/evm/testutil/integration/base/network"
-	"github.com/cosmos/evm/testutil/integration/evm/grpc"
+	"github.com/ChainTrade-Blockchain/core/testutil/integration/base/network"
+	"github.com/ChainTrade-Blockchain/core/testutil/integration/evm/grpc"
 
 	errorsmod "cosmossdk.io/errors"
 

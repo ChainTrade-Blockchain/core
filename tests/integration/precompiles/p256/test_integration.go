@@ -15,13 +15,13 @@ import (
 
 	"github.com/cometbft/cometbft/crypto"
 
-	"github.com/cosmos/evm/precompiles/p256"
-	"github.com/cosmos/evm/testutil/integration/evm/factory"
-	"github.com/cosmos/evm/testutil/integration/evm/grpc"
-	"github.com/cosmos/evm/testutil/integration/evm/network"
-	"github.com/cosmos/evm/testutil/integration/evm/utils"
-	testkeyring "github.com/cosmos/evm/testutil/keyring"
-	evmtypes "github.com/cosmos/evm/x/vm/types"
+	"github.com/ChainTrade-Blockchain/core/precompiles/p256"
+	"github.com/ChainTrade-Blockchain/core/testutil/integration/evm/factory"
+	"github.com/ChainTrade-Blockchain/core/testutil/integration/evm/grpc"
+	"github.com/ChainTrade-Blockchain/core/testutil/integration/evm/network"
+	"github.com/ChainTrade-Blockchain/core/testutil/integration/evm/utils"
+	testkeyring "github.com/ChainTrade-Blockchain/core/testutil/keyring"
+	evmtypes "github.com/ChainTrade-Blockchain/core/x/vm/types"
 )
 
 type IntegrationTestSuite struct {

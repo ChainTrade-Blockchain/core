@@ -5,10 +5,10 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	testconstants "github.com/cosmos/evm/testutil/constants"
-	"github.com/cosmos/evm/testutil/integration/evm/network"
-	"github.com/cosmos/evm/x/precisebank"
-	"github.com/cosmos/evm/x/precisebank/types"
+	testconstants "github.com/ChainTrade-Blockchain/core/testutil/constants"
+	"github.com/ChainTrade-Blockchain/core/testutil/integration/evm/network"
+	"github.com/ChainTrade-Blockchain/core/x/precisebank"
+	"github.com/ChainTrade-Blockchain/core/x/precisebank/types"
 
 	sdkmath "cosmossdk.io/math"
 

@@ -1,8 +1,8 @@
 package factory
 
 import (
-	"github.com/cosmos/evm/testutil/integration/evm/grpc"
-	"github.com/cosmos/evm/testutil/integration/evm/network"
+	"github.com/ChainTrade-Blockchain/core/testutil/integration/evm/grpc"
+	"github.com/ChainTrade-Blockchain/core/testutil/integration/evm/network"
 )
 
 const (

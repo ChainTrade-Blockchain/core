@@ -8,9 +8,9 @@ import (
 	"github.com/ethereum/go-ethereum/core/tracing"
 	"github.com/ethereum/go-ethereum/core/vm"
 
-	cmn "github.com/cosmos/evm/precompiles/common"
-	erc20types "github.com/cosmos/evm/x/erc20/types"
-	transferkeeper "github.com/cosmos/evm/x/ibc/transfer/keeper"
+	cmn "github.com/ChainTrade-Blockchain/core/precompiles/common"
+	erc20types "github.com/ChainTrade-Blockchain/core/x/erc20/types"
+	transferkeeper "github.com/ChainTrade-Blockchain/core/x/ibc/transfer/keeper"
 
 	storetypes "cosmossdk.io/store/types"
 

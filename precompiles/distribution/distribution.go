@@ -9,9 +9,9 @@ import (
 	"github.com/ethereum/go-ethereum/core/tracing"
 	"github.com/ethereum/go-ethereum/core/vm"
 
-	cmn "github.com/cosmos/evm/precompiles/common"
-	evmkeeper "github.com/cosmos/evm/x/vm/keeper"
-	evmtypes "github.com/cosmos/evm/x/vm/types"
+	cmn "github.com/ChainTrade-Blockchain/core/precompiles/common"
+	evmkeeper "github.com/ChainTrade-Blockchain/core/x/vm/keeper"
+	evmtypes "github.com/ChainTrade-Blockchain/core/x/vm/types"
 
 	storetypes "cosmossdk.io/store/types"
 

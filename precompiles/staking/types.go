@@ -10,7 +10,7 @@ import (
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
 
-	cmn "github.com/cosmos/evm/precompiles/common"
+	cmn "github.com/ChainTrade-Blockchain/core/precompiles/common"
 
 	"cosmossdk.io/math"
 

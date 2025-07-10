@@ -3,9 +3,9 @@ package evm
 import (
 	"math/big"
 
-	anteinterfaces "github.com/cosmos/evm/ante/interfaces"
-	"github.com/cosmos/evm/types"
-	evmtypes "github.com/cosmos/evm/x/vm/types"
+	anteinterfaces "github.com/ChainTrade-Blockchain/core/ante/interfaces"
+	"github.com/ChainTrade-Blockchain/core/types"
+	evmtypes "github.com/ChainTrade-Blockchain/core/x/vm/types"
 
 	errorsmod "cosmossdk.io/errors"
 

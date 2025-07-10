@@ -6,10 +6,10 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core"
 
-	anteinterfaces "github.com/cosmos/evm/ante/interfaces"
-	"github.com/cosmos/evm/utils"
-	"github.com/cosmos/evm/x/vm/statedb"
-	evmtypes "github.com/cosmos/evm/x/vm/types"
+	anteinterfaces "github.com/ChainTrade-Blockchain/core/ante/interfaces"
+	"github.com/ChainTrade-Blockchain/core/utils"
+	"github.com/ChainTrade-Blockchain/core/x/vm/statedb"
+	evmtypes "github.com/ChainTrade-Blockchain/core/x/vm/types"
 
 	errorsmod "cosmossdk.io/errors"
 

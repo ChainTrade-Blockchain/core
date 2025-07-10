@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/cosmos/evm/x/vm/types"
+	"github.com/ChainTrade-Blockchain/core/x/vm/types"
 
 	"cosmossdk.io/errors"
 	sdkmath "cosmossdk.io/math"

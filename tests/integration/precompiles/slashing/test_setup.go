@@ -3,11 +3,11 @@ package slashing
 import (
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/evm/precompiles/slashing"
-	"github.com/cosmos/evm/testutil/integration/evm/factory"
-	"github.com/cosmos/evm/testutil/integration/evm/grpc"
-	"github.com/cosmos/evm/testutil/integration/evm/network"
-	testkeyring "github.com/cosmos/evm/testutil/keyring"
+	"github.com/ChainTrade-Blockchain/core/precompiles/slashing"
+	"github.com/ChainTrade-Blockchain/core/testutil/integration/evm/factory"
+	"github.com/ChainTrade-Blockchain/core/testutil/integration/evm/grpc"
+	"github.com/ChainTrade-Blockchain/core/testutil/integration/evm/network"
+	testkeyring "github.com/ChainTrade-Blockchain/core/testutil/keyring"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

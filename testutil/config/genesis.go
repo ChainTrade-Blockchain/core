@@ -3,10 +3,10 @@ package config
 import (
 	"encoding/json"
 
-	testconstants "github.com/cosmos/evm/testutil/constants"
-	erc20types "github.com/cosmos/evm/x/erc20/types"
-	feemarkettypes "github.com/cosmos/evm/x/feemarket/types"
-	evmtypes "github.com/cosmos/evm/x/vm/types"
+	testconstants "github.com/ChainTrade-Blockchain/core/testutil/constants"
+	erc20types "github.com/ChainTrade-Blockchain/core/x/erc20/types"
+	feemarkettypes "github.com/ChainTrade-Blockchain/core/x/feemarket/types"
+	evmtypes "github.com/ChainTrade-Blockchain/core/x/vm/types"
 
 	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
 )

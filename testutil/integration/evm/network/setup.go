@@ -8,12 +8,12 @@ import (
 
 	cmttypes "github.com/cometbft/cometbft/types"
 
-	"github.com/cosmos/evm"
-	testconstants "github.com/cosmos/evm/testutil/constants"
-	cosmosevmtypes "github.com/cosmos/evm/types"
-	erc20types "github.com/cosmos/evm/x/erc20/types"
-	feemarkettypes "github.com/cosmos/evm/x/feemarket/types"
-	evmtypes "github.com/cosmos/evm/x/vm/types"
+	"github.com/ChainTrade-Blockchain/core"
+	testconstants "github.com/ChainTrade-Blockchain/core/testutil/constants"
+	cosmosevmtypes "github.com/ChainTrade-Blockchain/core/types"
+	erc20types "github.com/ChainTrade-Blockchain/core/x/erc20/types"
+	feemarkettypes "github.com/ChainTrade-Blockchain/core/x/feemarket/types"
+	evmtypes "github.com/ChainTrade-Blockchain/core/x/vm/types"
 	"github.com/cosmos/gogoproto/proto"
 	capabilitytypes "github.com/cosmos/ibc-go/modules/capability/types"
 

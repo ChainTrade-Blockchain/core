@@ -7,9 +7,9 @@ import (
 	//nolint:revive,ST1001 // dot imports are fine for Ginkgo
 	. "github.com/onsi/gomega"
 
-	"github.com/cosmos/evm/precompiles/bank"
-	testutiltypes "github.com/cosmos/evm/testutil/types"
-	evmtypes "github.com/cosmos/evm/x/vm/types"
+	"github.com/ChainTrade-Blockchain/core/precompiles/bank"
+	testutiltypes "github.com/ChainTrade-Blockchain/core/testutil/types"
+	evmtypes "github.com/ChainTrade-Blockchain/core/x/vm/types"
 
 	"cosmossdk.io/math"
 

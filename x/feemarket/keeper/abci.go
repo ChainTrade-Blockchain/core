@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/cosmos/evm/x/feemarket/types"
+	"github.com/ChainTrade-Blockchain/core/x/feemarket/types"
 
 	"cosmossdk.io/math"
 

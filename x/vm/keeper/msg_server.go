@@ -11,7 +11,7 @@ import (
 
 	cmttypes "github.com/cometbft/cometbft/types"
 
-	"github.com/cosmos/evm/x/vm/types"
+	"github.com/ChainTrade-Blockchain/core/x/vm/types"
 
 	errorsmod "cosmossdk.io/errors"
 	"cosmossdk.io/math"

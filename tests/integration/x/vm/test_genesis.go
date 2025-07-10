@@ -8,13 +8,13 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/holiman/uint256"
 
-	"github.com/cosmos/evm/contracts"
-	"github.com/cosmos/evm/crypto/ethsecp256k1"
-	"github.com/cosmos/evm/testutil/integration/evm/network"
-	testutiltypes "github.com/cosmos/evm/testutil/types"
-	"github.com/cosmos/evm/x/vm"
-	"github.com/cosmos/evm/x/vm/statedb"
-	"github.com/cosmos/evm/x/vm/types"
+	"github.com/ChainTrade-Blockchain/core/contracts"
+	"github.com/ChainTrade-Blockchain/core/crypto/ethsecp256k1"
+	"github.com/ChainTrade-Blockchain/core/testutil/integration/evm/network"
+	testutiltypes "github.com/ChainTrade-Blockchain/core/testutil/types"
+	"github.com/ChainTrade-Blockchain/core/x/vm"
+	"github.com/ChainTrade-Blockchain/core/x/vm/statedb"
+	"github.com/ChainTrade-Blockchain/core/x/vm/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

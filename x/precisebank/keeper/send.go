@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/cosmos/evm/x/precisebank/types"
+	"github.com/ChainTrade-Blockchain/core/x/precisebank/types"
 
 	errorsmod "cosmossdk.io/errors"
 	sdkmath "cosmossdk.io/math"

@@ -3,7 +3,7 @@ package eip712
 import (
 	"fmt"
 
-	"github.com/cosmos/evm/types"
+	"github.com/ChainTrade-Blockchain/core/types"
 
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/codec/address"

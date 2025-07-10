@@ -3,7 +3,7 @@ package types
 import (
 	"fmt"
 
-	"github.com/cosmos/evm/types"
+	"github.com/ChainTrade-Blockchain/core/types"
 )
 
 // Validate performs a basic validation of a GenesisAccount fields.
