@@ -14,9 +14,9 @@ import (
 	"github.com/ethereum/go-ethereum/core/tracing"
 	"github.com/ethereum/go-ethereum/core/vm"
 
-	cmn "github.com/cosmos/evm/precompiles/common"
-	erc20keeper "github.com/cosmos/evm/x/erc20/keeper"
-	evmtypes "github.com/cosmos/evm/x/vm/types"
+	cmn "github.com/ChainTrade-Blockchain/core/precompiles/common"
+	erc20keeper "github.com/ChainTrade-Blockchain/core/x/erc20/keeper"
+	evmtypes "github.com/ChainTrade-Blockchain/core/x/vm/types"
 
 	storetypes "cosmossdk.io/store/types"
 )

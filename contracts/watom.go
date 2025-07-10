@@ -3,8 +3,8 @@ package contracts
 import (
 	_ "embed"
 
-	contractutils "github.com/cosmos/evm/contracts/utils"
-	evmtypes "github.com/cosmos/evm/x/vm/types"
+	contractutils "github.com/ChainTrade-Blockchain/core/contracts/utils"
+	evmtypes "github.com/ChainTrade-Blockchain/core/x/vm/types"
 )
 
 var (

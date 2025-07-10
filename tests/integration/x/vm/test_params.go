@@ -1,8 +1,8 @@
 package vm
 
 import (
-	"github.com/cosmos/evm/testutil/config"
-	"github.com/cosmos/evm/x/vm/types"
+	"github.com/ChainTrade-Blockchain/core/testutil/config"
+	"github.com/ChainTrade-Blockchain/core/x/vm/types"
 )
 
 func (s *KeeperTestSuite) TestParams() {

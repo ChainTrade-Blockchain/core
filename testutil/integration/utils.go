@@ -5,8 +5,8 @@ import (
 
 	abci "github.com/cometbft/cometbft/abci/types"
 
-	"github.com/cosmos/evm"
-	"github.com/cosmos/evm/testutil/tx"
+	"github.com/ChainTrade-Blockchain/core"
+	"github.com/ChainTrade-Blockchain/core/testutil/tx"
 
 	errorsmod "cosmossdk.io/errors"
 

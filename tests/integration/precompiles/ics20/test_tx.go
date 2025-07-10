@@ -6,10 +6,10 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/vm"
 
-	"github.com/cosmos/evm"
-	evmibctesting "github.com/cosmos/evm/testutil/ibc"
-	"github.com/cosmos/evm/testutil/tx"
-	evmtypes "github.com/cosmos/evm/x/vm/types"
+	"github.com/ChainTrade-Blockchain/core"
+	evmibctesting "github.com/ChainTrade-Blockchain/core/testutil/ibc"
+	"github.com/ChainTrade-Blockchain/core/testutil/tx"
+	evmtypes "github.com/ChainTrade-Blockchain/core/x/vm/types"
 	transfertypes "github.com/cosmos/ibc-go/v10/modules/apps/transfer/types"
 	clienttypes "github.com/cosmos/ibc-go/v10/modules/core/02-client/types"
 

@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/evm/x/precisebank/types"
+	"github.com/ChainTrade-Blockchain/core/x/precisebank/types"
 
 	sdkmath "cosmossdk.io/math"
 )

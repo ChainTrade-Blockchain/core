@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"math/big"
 
-	testconstants "github.com/cosmos/evm/testutil/constants"
-	testtx "github.com/cosmos/evm/testutil/tx"
-	evmtypes "github.com/cosmos/evm/x/vm/types"
+	testconstants "github.com/ChainTrade-Blockchain/core/testutil/constants"
+	testtx "github.com/ChainTrade-Blockchain/core/testutil/tx"
+	evmtypes "github.com/ChainTrade-Blockchain/core/x/vm/types"
 
 	"cosmossdk.io/math"
 

@@ -6,9 +6,9 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 
-	cmn "github.com/cosmos/evm/precompiles/common"
-	"github.com/cosmos/evm/precompiles/erc20"
-	utiltx "github.com/cosmos/evm/testutil/tx"
+	cmn "github.com/ChainTrade-Blockchain/core/precompiles/common"
+	"github.com/ChainTrade-Blockchain/core/precompiles/erc20"
+	utiltx "github.com/ChainTrade-Blockchain/core/testutil/tx"
 )
 
 //nolint:dupl // this is not a duplicate of the approval events test

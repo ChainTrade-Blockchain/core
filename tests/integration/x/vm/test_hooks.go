@@ -8,9 +8,9 @@ import (
 	"github.com/ethereum/go-ethereum/core"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 
-	"github.com/cosmos/evm/x/vm/keeper"
-	"github.com/cosmos/evm/x/vm/statedb"
-	"github.com/cosmos/evm/x/vm/types"
+	"github.com/ChainTrade-Blockchain/core/x/vm/keeper"
+	"github.com/ChainTrade-Blockchain/core/x/vm/statedb"
+	"github.com/ChainTrade-Blockchain/core/x/vm/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

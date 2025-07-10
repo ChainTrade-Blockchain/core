@@ -15,11 +15,11 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 
-	"github.com/cosmos/evm/rpc/backend/mocks"
-	rpc "github.com/cosmos/evm/rpc/types"
-	"github.com/cosmos/evm/testutil/config"
-	utiltx "github.com/cosmos/evm/testutil/tx"
-	evmtypes "github.com/cosmos/evm/x/vm/types"
+	"github.com/ChainTrade-Blockchain/core/rpc/backend/mocks"
+	rpc "github.com/ChainTrade-Blockchain/core/rpc/types"
+	"github.com/ChainTrade-Blockchain/core/testutil/config"
+	utiltx "github.com/ChainTrade-Blockchain/core/testutil/tx"
+	evmtypes "github.com/ChainTrade-Blockchain/core/x/vm/types"
 
 	"cosmossdk.io/math"
 

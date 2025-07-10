@@ -3,10 +3,10 @@ package ante
 import (
 	"math/big"
 
-	evmante "github.com/cosmos/evm/ante/evm"
-	"github.com/cosmos/evm/testutil"
-	testutiltx "github.com/cosmos/evm/testutil/tx"
-	evmtypes "github.com/cosmos/evm/x/vm/types"
+	evmante "github.com/ChainTrade-Blockchain/core/ante/evm"
+	"github.com/ChainTrade-Blockchain/core/testutil"
+	testutiltx "github.com/ChainTrade-Blockchain/core/testutil/tx"
+	evmtypes "github.com/ChainTrade-Blockchain/core/x/vm/types"
 
 	storetypes "cosmossdk.io/store/types"
 

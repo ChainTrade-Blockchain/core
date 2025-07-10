@@ -3,8 +3,8 @@ package erc20
 import (
 	"fmt"
 
-	utiltx "github.com/cosmos/evm/testutil/tx"
-	"github.com/cosmos/evm/x/erc20/types"
+	utiltx "github.com/ChainTrade-Blockchain/core/testutil/tx"
+	"github.com/ChainTrade-Blockchain/core/x/erc20/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

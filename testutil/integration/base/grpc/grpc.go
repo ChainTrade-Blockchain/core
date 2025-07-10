@@ -1,7 +1,7 @@
 package grpc
 
 import (
-	"github.com/cosmos/evm/testutil/integration/base/network"
+	"github.com/ChainTrade-Blockchain/core/testutil/integration/base/network"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/x/authz"

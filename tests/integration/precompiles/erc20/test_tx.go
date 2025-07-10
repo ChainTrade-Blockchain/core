@@ -5,10 +5,10 @@ import (
 
 	"github.com/ethereum/go-ethereum/core/vm"
 
-	"github.com/cosmos/evm/precompiles/erc20"
-	"github.com/cosmos/evm/precompiles/testutil"
-	erc20types "github.com/cosmos/evm/x/erc20/types"
-	"github.com/cosmos/evm/x/vm/statedb"
+	"github.com/ChainTrade-Blockchain/core/precompiles/erc20"
+	"github.com/ChainTrade-Blockchain/core/precompiles/testutil"
+	erc20types "github.com/ChainTrade-Blockchain/core/x/erc20/types"
+	"github.com/ChainTrade-Blockchain/core/x/vm/statedb"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

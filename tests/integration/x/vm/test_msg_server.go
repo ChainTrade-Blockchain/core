@@ -3,8 +3,8 @@ package vm
 import (
 	"math/big"
 
-	"github.com/cosmos/evm/testutil/integration/evm/utils"
-	"github.com/cosmos/evm/x/vm/types"
+	"github.com/ChainTrade-Blockchain/core/testutil/integration/evm/utils"
+	"github.com/ChainTrade-Blockchain/core/x/vm/types"
 
 	sdktypes "github.com/cosmos/cosmos-sdk/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"

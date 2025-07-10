@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/evm/x/erc20/types"
+	"github.com/ChainTrade-Blockchain/core/x/erc20/types"
 )
 
 func TestNewERC20Data(t *testing.T) {

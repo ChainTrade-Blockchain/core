@@ -13,10 +13,10 @@ import (
 
 	cmttypes "github.com/cometbft/cometbft/types"
 
-	cosmosevmtypes "github.com/cosmos/evm/types"
-	"github.com/cosmos/evm/utils"
-	"github.com/cosmos/evm/x/vm/statedb"
-	"github.com/cosmos/evm/x/vm/types"
+	cosmosevmtypes "github.com/ChainTrade-Blockchain/core/types"
+	"github.com/ChainTrade-Blockchain/core/utils"
+	"github.com/ChainTrade-Blockchain/core/x/vm/statedb"
+	"github.com/ChainTrade-Blockchain/core/x/vm/types"
 
 	errorsmod "cosmossdk.io/errors"
 	"cosmossdk.io/math"

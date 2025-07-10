@@ -3,10 +3,10 @@ package ante
 import (
 	"fmt"
 
-	cosmosante "github.com/cosmos/evm/ante/cosmos"
-	"github.com/cosmos/evm/testutil"
-	"github.com/cosmos/evm/testutil/constants"
-	testutiltx "github.com/cosmos/evm/testutil/tx"
+	cosmosante "github.com/ChainTrade-Blockchain/core/ante/cosmos"
+	"github.com/ChainTrade-Blockchain/core/testutil"
+	"github.com/ChainTrade-Blockchain/core/testutil/constants"
+	testutiltx "github.com/ChainTrade-Blockchain/core/testutil/tx"
 
 	"cosmossdk.io/math"
 

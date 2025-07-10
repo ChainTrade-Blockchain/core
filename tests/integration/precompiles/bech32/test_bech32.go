@@ -5,8 +5,8 @@ import (
 	"github.com/ethereum/go-ethereum/core/vm"
 	"github.com/holiman/uint256"
 
-	"github.com/cosmos/evm/precompiles/bech32"
-	"github.com/cosmos/evm/testutil/config"
+	"github.com/ChainTrade-Blockchain/core/precompiles/bech32"
+	"github.com/ChainTrade-Blockchain/core/testutil/config"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

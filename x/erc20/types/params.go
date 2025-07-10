@@ -7,7 +7,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/cosmos/evm/types"
+	"github.com/ChainTrade-Blockchain/core/types"
 )
 
 // Parameter store key

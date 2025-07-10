@@ -6,9 +6,9 @@ import (
 	"github.com/ethereum/go-ethereum/core/vm"
 	"github.com/holiman/uint256"
 
-	cmn "github.com/cosmos/evm/precompiles/common"
-	"github.com/cosmos/evm/precompiles/distribution"
-	testutiltx "github.com/cosmos/evm/testutil/tx"
+	cmn "github.com/ChainTrade-Blockchain/core/precompiles/common"
+	"github.com/ChainTrade-Blockchain/core/precompiles/distribution"
+	testutiltx "github.com/ChainTrade-Blockchain/core/testutil/tx"
 
 	"cosmossdk.io/math"
 

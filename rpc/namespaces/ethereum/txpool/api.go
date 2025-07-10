@@ -3,7 +3,7 @@ package txpool
 import (
 	"github.com/ethereum/go-ethereum/common/hexutil"
 
-	"github.com/cosmos/evm/rpc/types"
+	"github.com/ChainTrade-Blockchain/core/rpc/types"
 
 	"cosmossdk.io/log"
 )

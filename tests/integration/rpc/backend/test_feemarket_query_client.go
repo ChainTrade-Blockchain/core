@@ -1,9 +1,9 @@
 package backend
 
 import (
-	"github.com/cosmos/evm/rpc/backend/mocks"
-	rpc "github.com/cosmos/evm/rpc/types"
-	feemarkettypes "github.com/cosmos/evm/x/feemarket/types"
+	"github.com/ChainTrade-Blockchain/core/rpc/backend/mocks"
+	rpc "github.com/ChainTrade-Blockchain/core/rpc/types"
+	feemarkettypes "github.com/ChainTrade-Blockchain/core/x/feemarket/types"
 
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 )

@@ -1,8 +1,8 @@
 package vm
 
 import (
-	"github.com/cosmos/evm/testutil/integration/evm/network"
-	evmante "github.com/cosmos/evm/x/vm/ante"
+	"github.com/ChainTrade-Blockchain/core/testutil/integration/evm/network"
+	evmante "github.com/ChainTrade-Blockchain/core/x/vm/ante"
 
 	storetypes "cosmossdk.io/store/types"
 )
