@@ -11,7 +11,7 @@ import (
 	cmttypes "github.com/cometbft/cometbft/types"
 
 	dbm "github.com/cosmos/cosmos-db"
-	"github.com/ChainTrade-Blockchain/core/cvmd/cmd/evmd/config"
+	"github.com/ChainTrade-Blockchain/core/cvmd/cmd/cvmd/config"
 	feemarkettypes "github.com/ChainTrade-Blockchain/core/x/feemarket/types"
 	ibctesting "github.com/cosmos/ibc-go/v10/testing"
 

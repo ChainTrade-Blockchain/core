@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ChainTrade-Blockchain/core/cvmd/cmd/evmd/cmd"
-	evmdconfig "github.com/ChainTrade-Blockchain/core/cvmd/cmd/evmd/config"
+	"github.com/ChainTrade-Blockchain/core/cvmd/cmd/cvmd/cmd"
+	evmdconfig "github.com/ChainTrade-Blockchain/core/cvmd/cmd/cvmd/config"
 
 	svrcmd "github.com/cosmos/cosmos-sdk/server/cmd"
 	sdk "github.com/cosmos/cosmos-sdk/types"

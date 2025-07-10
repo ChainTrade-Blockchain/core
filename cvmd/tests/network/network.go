@@ -29,7 +29,7 @@ import (
 	dbm "github.com/cosmos/cosmos-db"
 	"github.com/ChainTrade-Blockchain/core/crypto/hd"
 	"github.com/ChainTrade-Blockchain/core/cvmd"
-	evmdconfig "github.com/ChainTrade-Blockchain/core/cvmd/cmd/evmd/config"
+	evmdconfig "github.com/ChainTrade-Blockchain/core/cvmd/cmd/cvmd/config"
 	"github.com/ChainTrade-Blockchain/core/server/config"
 	testconstants "github.com/ChainTrade-Blockchain/core/testutil/constants"
 	cosmosevmtypes "github.com/ChainTrade-Blockchain/core/types"
