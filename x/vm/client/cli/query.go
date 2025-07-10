@@ -9,10 +9,10 @@ import (
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/spf13/cobra"
 
-	"github.com/cosmos/evm/contracts"
-	rpctypes "github.com/cosmos/evm/rpc/types"
-	"github.com/cosmos/evm/utils"
-	"github.com/cosmos/evm/x/vm/types"
+	"github.com/ChainTrade-Blockchain/core/contracts"
+	rpctypes "github.com/ChainTrade-Blockchain/core/rpc/types"
+	"github.com/ChainTrade-Blockchain/core/utils"
+	"github.com/ChainTrade-Blockchain/core/x/vm/types"
 
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"

@@ -18,9 +18,9 @@ import (
 	"github.com/ethereum/go-ethereum/trie/utils"
 	"github.com/holiman/uint256"
 
-	"github.com/cosmos/evm/x/vm/store/snapshotmulti"
-	vmstoretypes "github.com/cosmos/evm/x/vm/store/types"
-	"github.com/cosmos/evm/x/vm/types"
+	"github.com/ChainTrade-Blockchain/core/x/vm/store/snapshotmulti"
+	vmstoretypes "github.com/ChainTrade-Blockchain/core/x/vm/store/types"
+	"github.com/ChainTrade-Blockchain/core/x/vm/types"
 
 	errorsmod "cosmossdk.io/errors"
 	storetypes "cosmossdk.io/store/types"
@@ -505,7 +505,7 @@ func (s *StateDB) SelfDestruct6780(addr common.Address) (uint256.Int, bool) {
 		return uint256.Int{}, false
 	}
 
-	// todo: this is not equivalent to upstream (https://github.com/cosmos/evm/pull/181/#discussion_r2105471095)
+	// todo: this is not equivalent to upstream (https://github.com/ChainTrade-Blockchain/core/pull/181/#discussion_r2105471095)
 	if stateObject.newContract {
 		return s.SelfDestruct(addr), true
 	}

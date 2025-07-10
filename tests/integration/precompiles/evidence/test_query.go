@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	cmn "github.com/cosmos/evm/precompiles/common"
-	"github.com/cosmos/evm/precompiles/evidence"
-	"github.com/cosmos/evm/precompiles/testutil"
+	cmn "github.com/ChainTrade-Blockchain/core/precompiles/common"
+	"github.com/ChainTrade-Blockchain/core/precompiles/evidence"
+	"github.com/ChainTrade-Blockchain/core/precompiles/testutil"
 
 	evidencetypes "cosmossdk.io/x/evidence/types"
 

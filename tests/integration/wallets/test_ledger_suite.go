@@ -7,11 +7,11 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/evm/testutil/constants"
-	"github.com/cosmos/evm/testutil/integration/evm/network"
-	"github.com/cosmos/evm/wallets/ledger"
-	"github.com/cosmos/evm/wallets/ledger/mocks"
-	"github.com/cosmos/evm/wallets/usbwallet"
+	"github.com/ChainTrade-Blockchain/core/testutil/constants"
+	"github.com/ChainTrade-Blockchain/core/testutil/integration/evm/network"
+	"github.com/ChainTrade-Blockchain/core/wallets/ledger"
+	"github.com/ChainTrade-Blockchain/core/wallets/ledger/mocks"
+	"github.com/ChainTrade-Blockchain/core/wallets/usbwallet"
 
 	"cosmossdk.io/math"
 

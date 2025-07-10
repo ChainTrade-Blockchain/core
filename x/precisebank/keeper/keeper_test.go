@@ -3,12 +3,12 @@ package keeper_test
 import (
 	"testing"
 
-	evmosencoding "github.com/cosmos/evm/encoding"
-	"github.com/cosmos/evm/testutil/config"
-	testconstants "github.com/cosmos/evm/testutil/constants"
-	"github.com/cosmos/evm/x/precisebank/keeper"
-	"github.com/cosmos/evm/x/precisebank/types"
-	"github.com/cosmos/evm/x/precisebank/types/mocks"
+	evmosencoding "github.com/ChainTrade-Blockchain/core/encoding"
+	"github.com/ChainTrade-Blockchain/core/testutil/config"
+	testconstants "github.com/ChainTrade-Blockchain/core/testutil/constants"
+	"github.com/ChainTrade-Blockchain/core/x/precisebank/keeper"
+	"github.com/ChainTrade-Blockchain/core/x/precisebank/types"
+	"github.com/ChainTrade-Blockchain/core/x/precisebank/types/mocks"
 
 	sdkmath "cosmossdk.io/math"
 	storetypes "cosmossdk.io/store/types"

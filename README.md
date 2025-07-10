@@ -49,6 +49,6 @@ make benchmark
 
 ## Open-source License & Credits
 
-ChainTrade Blockchain is open-source under the Apache 2.0 license, an extension of the license of the original codebase (https://github.com/cosmos/evm)
+ChainTrade Blockchain is open-source under the Apache 2.0 license, an extension of the license of the original codebase (https://github.com/ChainTrade-Blockchain/core)
 created by Tharsis and the evmOS team - who conducted the foundational work for EVM compatibility and
 interoperability in Cosmos.

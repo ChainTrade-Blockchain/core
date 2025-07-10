@@ -1,4 +1,4 @@
-module github.com/cosmos/evm
+module github.com/ChainTrade-Blockchain/core
 
 go 1.23.8
 

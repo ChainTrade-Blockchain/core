@@ -3,8 +3,8 @@ package feemarket
 import (
 	"reflect"
 
-	"github.com/cosmos/evm/testutil/integration/evm/network"
-	"github.com/cosmos/evm/x/feemarket/types"
+	"github.com/ChainTrade-Blockchain/core/testutil/integration/evm/network"
+	"github.com/ChainTrade-Blockchain/core/x/feemarket/types"
 )
 
 func (s *KeeperTestSuite) TestGetParams() {

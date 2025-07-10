@@ -1,8 +1,8 @@
 package network
 
 import (
-	testconstants "github.com/cosmos/evm/testutil/constants"
-	evmtypes "github.com/cosmos/evm/x/vm/types"
+	testconstants "github.com/ChainTrade-Blockchain/core/testutil/constants"
+	evmtypes "github.com/ChainTrade-Blockchain/core/x/vm/types"
 )
 
 type CoinInfo struct {

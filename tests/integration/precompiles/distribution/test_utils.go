@@ -1,8 +1,8 @@
 package distribution
 
 import (
-	"github.com/cosmos/evm/precompiles/staking"
-	"github.com/cosmos/evm/testutil/keyring"
+	"github.com/ChainTrade-Blockchain/core/precompiles/staking"
+	"github.com/ChainTrade-Blockchain/core/testutil/keyring"
 
 	"cosmossdk.io/math"
 

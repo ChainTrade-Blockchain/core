@@ -1,7 +1,7 @@
 package feemarket
 
 import (
-	"github.com/cosmos/evm/testutil/integration/evm/network"
+	"github.com/ChainTrade-Blockchain/core/testutil/integration/evm/network"
 
 	storetypes "cosmossdk.io/store/types"
 

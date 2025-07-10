@@ -10,11 +10,11 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/stretchr/testify/require"
 
-	servercfg "github.com/cosmos/evm/server/config"
-	utiltx "github.com/cosmos/evm/testutil/tx"
-	"github.com/cosmos/evm/x/vm/keeper/testdata"
-	"github.com/cosmos/evm/x/vm/statedb"
-	evmtypes "github.com/cosmos/evm/x/vm/types"
+	servercfg "github.com/ChainTrade-Blockchain/core/server/config"
+	utiltx "github.com/ChainTrade-Blockchain/core/testutil/tx"
+	"github.com/ChainTrade-Blockchain/core/x/vm/keeper/testdata"
+	"github.com/ChainTrade-Blockchain/core/x/vm/statedb"
+	evmtypes "github.com/ChainTrade-Blockchain/core/x/vm/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

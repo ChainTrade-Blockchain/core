@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	cmnfactory "github.com/cosmos/evm/testutil/integration/base/factory"
-	cmnnet "github.com/cosmos/evm/testutil/integration/base/network"
-	"github.com/cosmos/evm/testutil/keyring"
+	cmnfactory "github.com/ChainTrade-Blockchain/core/testutil/integration/base/factory"
+	cmnnet "github.com/ChainTrade-Blockchain/core/testutil/integration/base/network"
+	"github.com/ChainTrade-Blockchain/core/testutil/keyring"
 
 	"cosmossdk.io/math"
 

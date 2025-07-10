@@ -5,10 +5,10 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	cmn "github.com/cosmos/evm/precompiles/common"
-	"github.com/cosmos/evm/precompiles/slashing"
-	"github.com/cosmos/evm/precompiles/testutil"
-	utiltx "github.com/cosmos/evm/testutil/tx"
+	cmn "github.com/ChainTrade-Blockchain/core/precompiles/common"
+	"github.com/ChainTrade-Blockchain/core/precompiles/slashing"
+	"github.com/ChainTrade-Blockchain/core/precompiles/testutil"
+	utiltx "github.com/ChainTrade-Blockchain/core/testutil/tx"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

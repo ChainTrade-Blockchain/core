@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/evm"
-	"github.com/cosmos/evm/precompiles/ics20"
-	evmibctesting "github.com/cosmos/evm/testutil/ibc"
+	"github.com/ChainTrade-Blockchain/core"
+	"github.com/ChainTrade-Blockchain/core/precompiles/ics20"
+	evmibctesting "github.com/ChainTrade-Blockchain/core/testutil/ibc"
 	ibctesting "github.com/cosmos/ibc-go/v10/testing"
 )
 

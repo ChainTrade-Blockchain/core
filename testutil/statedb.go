@@ -3,8 +3,8 @@ package testutil
 import (
 	"github.com/ethereum/go-ethereum/common"
 
-	anteinterfaces "github.com/cosmos/evm/ante/interfaces"
-	"github.com/cosmos/evm/x/vm/statedb"
+	anteinterfaces "github.com/ChainTrade-Blockchain/core/ante/interfaces"
+	"github.com/ChainTrade-Blockchain/core/x/vm/statedb"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

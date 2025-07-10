@@ -5,8 +5,8 @@ import (
 
 	"github.com/cometbft/cometbft/crypto/tmhash"
 
-	cosmosevmtypes "github.com/cosmos/evm/types"
-	"github.com/cosmos/evm/utils"
+	cosmosevmtypes "github.com/ChainTrade-Blockchain/core/types"
+	"github.com/ChainTrade-Blockchain/core/utils"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

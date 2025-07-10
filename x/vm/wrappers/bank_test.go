@@ -10,10 +10,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	testconstants "github.com/cosmos/evm/testutil/constants"
-	evmtypes "github.com/cosmos/evm/x/vm/types"
-	"github.com/cosmos/evm/x/vm/wrappers"
-	"github.com/cosmos/evm/x/vm/wrappers/testutil"
+	testconstants "github.com/ChainTrade-Blockchain/core/testutil/constants"
+	evmtypes "github.com/ChainTrade-Blockchain/core/x/vm/types"
+	"github.com/ChainTrade-Blockchain/core/x/vm/wrappers"
+	"github.com/ChainTrade-Blockchain/core/x/vm/wrappers/testutil"
 
 	sdkmath "cosmossdk.io/math"
 

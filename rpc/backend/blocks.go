@@ -17,8 +17,8 @@ import (
 
 	tmrpctypes "github.com/cometbft/cometbft/rpc/core/types"
 
-	rpctypes "github.com/cosmos/evm/rpc/types"
-	evmtypes "github.com/cosmos/evm/x/vm/types"
+	rpctypes "github.com/ChainTrade-Blockchain/core/rpc/types"
+	evmtypes "github.com/ChainTrade-Blockchain/core/x/vm/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	grpctypes "github.com/cosmos/cosmos-sdk/types/grpc"

@@ -8,10 +8,10 @@ import (
 	"github.com/ethereum/go-ethereum/crypto/secp256k1"
 	"github.com/ethereum/go-ethereum/signer/core/apitypes"
 
-	anteinterfaces "github.com/cosmos/evm/ante/interfaces"
-	"github.com/cosmos/evm/crypto/ethsecp256k1"
-	"github.com/cosmos/evm/ethereum/eip712"
-	"github.com/cosmos/evm/types"
+	anteinterfaces "github.com/ChainTrade-Blockchain/core/ante/interfaces"
+	"github.com/ChainTrade-Blockchain/core/crypto/ethsecp256k1"
+	"github.com/ChainTrade-Blockchain/core/ethereum/eip712"
+	"github.com/ChainTrade-Blockchain/core/types"
 
 	errorsmod "cosmossdk.io/errors"
 

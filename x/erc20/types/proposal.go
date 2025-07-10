@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	cosmosevmtypes "github.com/cosmos/evm/types"
+	cosmosevmtypes "github.com/ChainTrade-Blockchain/core/types"
 
 	errorsmod "cosmossdk.io/errors"
 

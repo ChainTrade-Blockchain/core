@@ -1,8 +1,8 @@
 package constants
 
 import (
-	erc20types "github.com/cosmos/evm/x/erc20/types"
-	evmtypes "github.com/cosmos/evm/x/vm/types"
+	erc20types "github.com/ChainTrade-Blockchain/core/x/erc20/types"
+	evmtypes "github.com/ChainTrade-Blockchain/core/x/vm/types"
 
 	"cosmossdk.io/math"
 )

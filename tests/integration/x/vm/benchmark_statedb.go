@@ -10,7 +10,7 @@ import (
 	"github.com/holiman/uint256"
 	"github.com/stretchr/testify/require"
 
-	utiltx "github.com/cosmos/evm/testutil/tx"
+	utiltx "github.com/ChainTrade-Blockchain/core/testutil/tx"
 )
 
 func BenchmarkCreateAccountNew(b *testing.B) {

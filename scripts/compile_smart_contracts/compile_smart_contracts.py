@@ -182,7 +182,7 @@ def is_os_repo(path: Path) -> bool:
             if not line:
                 break
 
-            if "module github.com/cosmos/evm" in line:
+            if "module github.com/ChainTrade-Blockchain/core" in line:
                 return True
 
     return False

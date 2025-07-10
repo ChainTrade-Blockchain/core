@@ -3,11 +3,11 @@
 package testutil
 
 import (
-	testconstants "github.com/cosmos/evm/testutil/constants"
-	grpchandler "github.com/cosmos/evm/testutil/integration/evm/grpc"
-	"github.com/cosmos/evm/testutil/integration/evm/network"
-	testkeyring "github.com/cosmos/evm/testutil/keyring"
-	evmtypes "github.com/cosmos/evm/x/vm/types"
+	testconstants "github.com/ChainTrade-Blockchain/core/testutil/constants"
+	grpchandler "github.com/ChainTrade-Blockchain/core/testutil/integration/evm/grpc"
+	"github.com/ChainTrade-Blockchain/core/testutil/integration/evm/network"
+	testkeyring "github.com/ChainTrade-Blockchain/core/testutil/keyring"
+	evmtypes "github.com/ChainTrade-Blockchain/core/x/vm/types"
 
 	"cosmossdk.io/math"
 

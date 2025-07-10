@@ -7,9 +7,9 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 
-	"github.com/cosmos/evm/utils"
-	"github.com/cosmos/evm/x/erc20/types"
-	"github.com/cosmos/evm/x/vm/statedb"
+	"github.com/ChainTrade-Blockchain/core/utils"
+	"github.com/ChainTrade-Blockchain/core/x/erc20/types"
+	"github.com/ChainTrade-Blockchain/core/x/vm/statedb"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

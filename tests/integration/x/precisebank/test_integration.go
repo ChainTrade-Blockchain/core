@@ -6,12 +6,12 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/cosmos/evm/contracts"
-	testconstants "github.com/cosmos/evm/testutil/constants"
-	"github.com/cosmos/evm/testutil/integration/evm/utils"
-	testutiltypes "github.com/cosmos/evm/testutil/types"
-	"github.com/cosmos/evm/x/precisebank/types"
-	evmtypes "github.com/cosmos/evm/x/vm/types"
+	"github.com/ChainTrade-Blockchain/core/contracts"
+	testconstants "github.com/ChainTrade-Blockchain/core/testutil/constants"
+	"github.com/ChainTrade-Blockchain/core/testutil/integration/evm/utils"
+	testutiltypes "github.com/ChainTrade-Blockchain/core/testutil/types"
+	"github.com/ChainTrade-Blockchain/core/x/precisebank/types"
+	evmtypes "github.com/ChainTrade-Blockchain/core/x/vm/types"
 
 	sdkmath "cosmossdk.io/math"
 

@@ -13,12 +13,12 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/evm/crypto/ethsecp256k1"
-	"github.com/cosmos/evm/encoding"
-	"github.com/cosmos/evm/testutil/config"
-	testconstants "github.com/cosmos/evm/testutil/constants"
-	utiltx "github.com/cosmos/evm/testutil/tx"
-	"github.com/cosmos/evm/x/vm/types"
+	"github.com/ChainTrade-Blockchain/core/crypto/ethsecp256k1"
+	"github.com/ChainTrade-Blockchain/core/encoding"
+	"github.com/ChainTrade-Blockchain/core/testutil/config"
+	testconstants "github.com/ChainTrade-Blockchain/core/testutil/constants"
+	utiltx "github.com/ChainTrade-Blockchain/core/testutil/tx"
+	"github.com/ChainTrade-Blockchain/core/x/vm/types"
 
 	sdkmath "cosmossdk.io/math"
 

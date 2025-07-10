@@ -3,7 +3,7 @@ package erc20
 import (
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/cosmos/evm/x/erc20/types"
+	"github.com/ChainTrade-Blockchain/core/x/erc20/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

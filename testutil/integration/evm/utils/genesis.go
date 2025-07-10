@@ -1,11 +1,11 @@
 package utils
 
 import (
-	"github.com/cosmos/evm/testutil/constants"
-	"github.com/cosmos/evm/testutil/integration/evm/network"
-	testkeyring "github.com/cosmos/evm/testutil/keyring"
-	utiltx "github.com/cosmos/evm/testutil/tx"
-	erc20types "github.com/cosmos/evm/x/erc20/types"
+	"github.com/ChainTrade-Blockchain/core/testutil/constants"
+	"github.com/ChainTrade-Blockchain/core/testutil/integration/evm/network"
+	testkeyring "github.com/ChainTrade-Blockchain/core/testutil/keyring"
+	utiltx "github.com/ChainTrade-Blockchain/core/testutil/tx"
+	erc20types "github.com/ChainTrade-Blockchain/core/x/erc20/types"
 
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"

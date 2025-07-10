@@ -1,8 +1,8 @@
 package erc20
 
 import (
-	testconstants "github.com/cosmos/evm/testutil/constants"
-	"github.com/cosmos/evm/x/erc20/types"
+	testconstants "github.com/ChainTrade-Blockchain/core/testutil/constants"
+	"github.com/ChainTrade-Blockchain/core/x/erc20/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

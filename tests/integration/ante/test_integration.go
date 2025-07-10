@@ -10,14 +10,14 @@ import (
 	//nolint:revive,ST1001 // dot imports are fine for Ginkgo
 	. "github.com/onsi/gomega"
 
-	testconstants "github.com/cosmos/evm/testutil/constants"
-	commonfactory "github.com/cosmos/evm/testutil/integration/base/factory"
-	"github.com/cosmos/evm/testutil/integration/evm/factory"
-	"github.com/cosmos/evm/testutil/integration/evm/grpc"
-	"github.com/cosmos/evm/testutil/integration/evm/network"
-	"github.com/cosmos/evm/testutil/integration/evm/utils"
-	testkeyring "github.com/cosmos/evm/testutil/keyring"
-	testutiltx "github.com/cosmos/evm/testutil/tx"
+	testconstants "github.com/ChainTrade-Blockchain/core/testutil/constants"
+	commonfactory "github.com/ChainTrade-Blockchain/core/testutil/integration/base/factory"
+	"github.com/ChainTrade-Blockchain/core/testutil/integration/evm/factory"
+	"github.com/ChainTrade-Blockchain/core/testutil/integration/evm/grpc"
+	"github.com/ChainTrade-Blockchain/core/testutil/integration/evm/network"
+	"github.com/ChainTrade-Blockchain/core/testutil/integration/evm/utils"
+	testkeyring "github.com/ChainTrade-Blockchain/core/testutil/keyring"
+	testutiltx "github.com/ChainTrade-Blockchain/core/testutil/tx"
 
 	"cosmossdk.io/math"
 

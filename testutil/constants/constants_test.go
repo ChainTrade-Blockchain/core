@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/evm/testutil/config"
-	"github.com/cosmos/evm/testutil/constants"
+	"github.com/ChainTrade-Blockchain/core/testutil/config"
+	"github.com/ChainTrade-Blockchain/core/testutil/constants"
 )
 
 func TestRequireSameTestDenom(t *testing.T) {

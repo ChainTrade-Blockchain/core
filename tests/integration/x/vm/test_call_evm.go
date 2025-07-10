@@ -5,11 +5,11 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/cosmos/evm/contracts"
-	testconstants "github.com/cosmos/evm/testutil/constants"
-	utiltx "github.com/cosmos/evm/testutil/tx"
-	"github.com/cosmos/evm/x/erc20/types"
-	evmtypes "github.com/cosmos/evm/x/vm/types"
+	"github.com/ChainTrade-Blockchain/core/contracts"
+	testconstants "github.com/ChainTrade-Blockchain/core/testutil/constants"
+	utiltx "github.com/ChainTrade-Blockchain/core/testutil/tx"
+	"github.com/ChainTrade-Blockchain/core/x/erc20/types"
+	evmtypes "github.com/ChainTrade-Blockchain/core/x/vm/types"
 )
 
 func (s *KeeperTestSuite) TestCallEVM() {

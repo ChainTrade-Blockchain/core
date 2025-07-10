@@ -7,9 +7,9 @@ import (
 
 	"github.com/cometbft/cometbft/libs/cli"
 
-	clientkeys "github.com/cosmos/evm/client/keys"
-	"github.com/cosmos/evm/crypto/hd"
-	cosmosevmkeyring "github.com/cosmos/evm/crypto/keyring"
+	clientkeys "github.com/ChainTrade-Blockchain/core/client/keys"
+	"github.com/ChainTrade-Blockchain/core/crypto/hd"
+	cosmosevmkeyring "github.com/ChainTrade-Blockchain/core/crypto/keyring"
 
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"

@@ -5,8 +5,8 @@ import (
 
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 
-	anteinterfaces "github.com/cosmos/evm/ante/interfaces"
-	evmtypes "github.com/cosmos/evm/x/vm/types"
+	anteinterfaces "github.com/ChainTrade-Blockchain/core/ante/interfaces"
+	evmtypes "github.com/ChainTrade-Blockchain/core/x/vm/types"
 
 	errorsmod "cosmossdk.io/errors"
 

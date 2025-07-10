@@ -3,7 +3,7 @@ package feemarket
 import (
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 
-	"github.com/cosmos/evm/testutil/integration/evm/network"
+	"github.com/ChainTrade-Blockchain/core/testutil/integration/evm/network"
 
 	"cosmossdk.io/math"
 

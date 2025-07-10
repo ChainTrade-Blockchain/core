@@ -1,9 +1,9 @@
 package vm
 
 import (
-	"github.com/cosmos/evm/testutil/integration/evm/network"
-	testkeyring "github.com/cosmos/evm/testutil/keyring"
-	evmtypes "github.com/cosmos/evm/x/vm/types"
+	"github.com/ChainTrade-Blockchain/core/testutil/integration/evm/network"
+	testkeyring "github.com/ChainTrade-Blockchain/core/testutil/keyring"
+	evmtypes "github.com/ChainTrade-Blockchain/core/x/vm/types"
 )
 
 func (s *KeeperTestSuite) TestEndBlock() {

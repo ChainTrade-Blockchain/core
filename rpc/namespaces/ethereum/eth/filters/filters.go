@@ -14,8 +14,8 @@ import (
 
 	tmrpctypes "github.com/cometbft/cometbft/rpc/core/types"
 
-	"github.com/cosmos/evm/rpc/backend"
-	"github.com/cosmos/evm/rpc/types"
+	"github.com/ChainTrade-Blockchain/core/rpc/backend"
+	"github.com/ChainTrade-Blockchain/core/rpc/types"
 
 	"cosmossdk.io/log"
 )
