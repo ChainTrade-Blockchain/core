@@ -30,13 +30,13 @@ var TestChainsCoinInfo = map[uint64]evmtypes.EvmCoinInfo{
 		Decimals:      evmtypes.SixDecimals,
 	},
 	TwelveDecimalsChainID: {
-		Denom:         "uchaintrade2",
+		Denom:         "pchaintrade2",
 		ExtendedDenom: "achaintrade2",
 		DisplayDenom:  "CHTR2",
 		Decimals:      evmtypes.TwelveDecimals,
 	},
 	TwoDecimalsChainID: {
-		Denom:         "uchaintrade3",
+		Denom:         "bchaintrade3",
 		ExtendedDenom: "achaintrade3",
 		DisplayDenom:  "CHTR3",
 		Decimals:      evmtypes.TwoDecimals,
