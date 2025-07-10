@@ -16,7 +16,7 @@ import (
 	cosmosevmcmd "github.com/ChainTrade-Blockchain/core/client"
 	cosmosevmkeyring "github.com/ChainTrade-Blockchain/core/crypto/keyring"
 	"github.com/ChainTrade-Blockchain/core/cvmd"
-	evmdconfig "github.com/ChainTrade-Blockchain/core/cvmd/cmd/evmd/config"
+	evmdconfig "github.com/ChainTrade-Blockchain/core/cvmd/cmd/cvmd/config"
 	cosmosevmserver "github.com/ChainTrade-Blockchain/core/server"
 	srvflags "github.com/ChainTrade-Blockchain/core/server/flags"
 

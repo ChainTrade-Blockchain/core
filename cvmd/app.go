@@ -17,7 +17,7 @@ import (
 	evmante "github.com/ChainTrade-Blockchain/core/ante"
 	cosmosevmante "github.com/ChainTrade-Blockchain/core/ante/evm"
 	"github.com/ChainTrade-Blockchain/core/cvmd/ante"
-	evmdconfig "github.com/ChainTrade-Blockchain/core/cvmd/cmd/evmd/config"
+	evmdconfig "github.com/ChainTrade-Blockchain/core/cvmd/cmd/cvmd/config"
 	evmosencoding "github.com/ChainTrade-Blockchain/core/encoding"
 	srvflags "github.com/ChainTrade-Blockchain/core/server/flags"
 	cosmosevmtypes "github.com/ChainTrade-Blockchain/core/types"

@@ -3,7 +3,7 @@ package cvmd
 import (
 	"encoding/json"
 
-	"github.com/ChainTrade-Blockchain/core/cvmd/cmd/evmd/config"
+	"github.com/ChainTrade-Blockchain/core/cvmd/cmd/cvmd/config"
 	testconstants "github.com/ChainTrade-Blockchain/core/testutil/constants"
 	erc20types "github.com/ChainTrade-Blockchain/core/x/erc20/types"
 	feemarkettypes "github.com/ChainTrade-Blockchain/core/x/feemarket/types"
