@@ -8,7 +8,7 @@ const (
 	ExampleDisplayDenom = "CHTR"
 
 	// EighteenDecimalsChainID is the chain ID for the 18 decimals chain.
-	EighteenDecimalsChainID = 306090
+	EighteenDecimalsChainID = 306092
 
 	// SixDecimalsChainID is the chain ID for the 6 decimals chain.
 	SixDecimalsChainID = 9002

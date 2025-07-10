@@ -19,13 +19,13 @@ var ChainsCoinInfo = map[uint64]evmtypes.EvmCoinInfo{
 	},
 	CosmosChainID: {
 		Denom:         "uchaintrade",
-		ExtendedDenom: "achaintrade",
+		ExtendedDenom: "chaintrade",
 		DisplayDenom:  "CHTR",
 		Decimals:      evmtypes.EighteenDecimals,
 	},
 	EVMChainID: {
 		Denom:         "uchaintrade",
-		ExtendedDenom: "achaintrade",
+		ExtendedDenom: "chaintrade",
 		DisplayDenom:  "CHTR",
 		Decimals:      evmtypes.EighteenDecimals,
 	},

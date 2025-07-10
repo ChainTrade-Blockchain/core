@@ -14,12 +14,11 @@ import (
 
 	abci "github.com/cometbft/cometbft/abci/types"
 
-	dbm "github.com/cosmos/cosmos-db"
 	evmante "github.com/ChainTrade-Blockchain/core/ante"
 	cosmosevmante "github.com/ChainTrade-Blockchain/core/ante/evm"
-	evmosencoding "github.com/ChainTrade-Blockchain/core/encoding"
 	"github.com/ChainTrade-Blockchain/core/cvmd/ante"
 	evmdconfig "github.com/ChainTrade-Blockchain/core/cvmd/cmd/evmd/config"
+	evmosencoding "github.com/ChainTrade-Blockchain/core/encoding"
 	srvflags "github.com/ChainTrade-Blockchain/core/server/flags"
 	cosmosevmtypes "github.com/ChainTrade-Blockchain/core/types"
 	"github.com/ChainTrade-Blockchain/core/x/erc20"
@@ -30,6 +29,7 @@ import (
 	feemarketkeeper "github.com/ChainTrade-Blockchain/core/x/feemarket/keeper"
 	feemarkettypes "github.com/ChainTrade-Blockchain/core/x/feemarket/types"
 	ibccallbackskeeper "github.com/ChainTrade-Blockchain/core/x/ibc/callbacks/keeper"
+	dbm "github.com/cosmos/cosmos-db"
 
 	// NOTE: override ICS20 keeper to support IBC transfers of ERC20 tokens
 	"github.com/ChainTrade-Blockchain/core/x/ibc/transfer"
