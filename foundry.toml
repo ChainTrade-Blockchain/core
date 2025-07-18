@@ -1,9 +1,3 @@
-# ~/.foundry/foundry.toml
-
-# Declare your named endpoints (optional; for forge test / forking)
-[rpc_endpoints]
-cosmos = "https://devnet-1-evmrpc.ib.skip.build"
-
 # Configure the default profile for cast/forge/anvil
 [profile.default]
 # Tell Foundry which chain you're targeting:
